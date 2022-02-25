@@ -11,5 +11,6 @@ public class Test6 {
         person.callYourPet();
 
         context.close();
+        System.out.println("Stop");
     }
 }
