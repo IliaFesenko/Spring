@@ -8,7 +8,7 @@ public class ConfWithAnn1 {
                 new ClassPathXmlApplicationContext("applicationContext3.xml");
         Person person = context.getBean("PersonBean", Person.class);
         person.callYourPet();
-
+        System.out.println("Hi, it's new!");
         context.close();
     }
 }
