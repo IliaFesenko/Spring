@@ -12,5 +12,6 @@ public class Test6 {
 
         context.close();
         System.out.println("Stop");
+        System.out.println("Kuku");
     }
 }

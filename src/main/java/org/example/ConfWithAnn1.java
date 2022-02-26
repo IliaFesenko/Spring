@@ -9,6 +9,7 @@ public class ConfWithAnn1 {
         Person person = context.getBean("PersonBean", Person.class);
         person.callYourPet();
         System.out.println("Hi, it's new!");
+        System.out.println("Hi, it's number 2");
         context.close();
     }
 }
